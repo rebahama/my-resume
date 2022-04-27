@@ -2,6 +2,9 @@
 body{
     font-family:'Open sans', sans-serif;
 }
+.bg-color-name-title{
+    background-color: #676767;
+}
 header{
     margin: 0;
 }
@@ -12,4 +15,17 @@ header{
     background-size: cover;
     min-height: 360px;
     transition: all .5s ease-in-out;
+}
+.heading{
+    margin-left: 55px;
+}
+.name{
+    color: #fff;
+    font-weight: 700;
+}
+.title{
+    margin-bottom: 90px;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 30px;
 }
