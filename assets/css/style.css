@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato:wght@300&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap');
 body{
-    font-family:'Open sans', sans-serif
+    font-family:'Open sans', sans-serif;
+}
+header{
+    margin: 0;
+}
+.logo{
+    background: url("../images/rosie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
 }
