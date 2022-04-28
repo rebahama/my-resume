@@ -70,6 +70,7 @@ header{
     color:#fafafa;
     font-size: 30px;
 }
+/*styinling the links*/
 .menu-item span{
     display: block;
     width: 100%;
@@ -83,4 +84,52 @@ header{
 .hvr-sweep-to-top::before{
     background-color: rgba(0, 0, 0, 0.3);
     height: 120px;
+}
+
+/*style the footer*/
+h1,h2,h3,h4{
+    margin: 0;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.general-sub{
+   color: #fafafa;
+   font-weight: 500;
+   min-height: 120px;
+   margin: 0;
+}
+footer{
+    background-color: #525252;
+    color: #fafafa;
+
+}
+.inline-block{
+    display: inline-block;
+}
+.cv i{
+    font-size: 30px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 7px;
+    transition: all 0.35s ease-in-out;
+}
+.cv i:hover, .social-links i:hover{
+    color: #3498db;
+}
+.social-links{
+    padding-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+.social-links i{
+    transition: all 0.35s ease-in-out;
+    color: #fafafa;
+
+}
+.social-links li{
+    padding-left: 20px;
+}
+#footer-details{
+    padding: 25px;
 }
