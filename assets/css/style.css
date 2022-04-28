@@ -133,3 +133,21 @@ footer{
 #footer-details{
     padding: 25px;
 }
+/*style the sections*/
+.bg-color-three-reasons{
+    background-color: #fff
+}
+.row-table{
+    display: table;
+}
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+.section-heading{
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
