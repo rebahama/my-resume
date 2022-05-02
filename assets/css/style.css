@@ -167,4 +167,23 @@ footer{
 .progress-section{
     margin: 40px 20px;
 }
-
+.bg-color-contact{
+    background-color: #fff;
+}
+/*style the contact form*/
+.contact-heading{
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-form{
+    padding-top: 12px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+button[type="submit"]{
+    color: #fafafa;
+    background-color: #e67e22;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
