@@ -151,4 +151,20 @@ footer{
     margin-top: 25px;
     margin-bottom: 40px;
 }
+.fa-gears:before, .fa-cogs:before,.fa-tv:before, .fa-television:before{
+    font-size: 40px;
+}
+.describe-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.progress{
+    width: 50%;
+    height: 25px;
+    position: relative;
+    margin-bottom: 4px;
+}
+.progress-section{
+    margin: 40px 20px;
+}
 
