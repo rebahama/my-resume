@@ -17,6 +17,8 @@ header{
 }
 #map {
     height: 100%;
+    margin-bottom: 20%;
+    padding-top:  40px;
   }
 .ui-menu-color-download{
     background-color: #3498db;
