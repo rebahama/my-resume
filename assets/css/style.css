@@ -15,9 +15,17 @@ header{
 .ui-menu-color-resume{
     background-color: #9b59b6
 }
-
+#map {
+    height: 100%;
+  }
 .ui-menu-color-download{
     background-color: #3498db;
+}
+.ui-menu-color-interest{
+    background-color: #f53d0e;
+}
+.ui-menu-color-github{
+    background-color: #190244;
 }
 .ui-menu-color-contact{   
     background-color: #525252;
