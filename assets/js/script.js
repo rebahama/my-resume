@@ -8,9 +8,15 @@ function initMap() {
       disableAutoPan: true,
     });
    let markerpos={
-       position: new google.maps.LatLng(-28.024, 140.887),
+       position: new google.maps.LatLng(59.85819839999999, 17.646541800000022),
        map:map
    }
+
+   let markerpos2={
+    position: new google.maps.LatLng(40.85819839999999, 17.646541800000022),
+    map:map
+}
   
   let marker = new google.maps.Marker(markerpos)
+  let marker2= new google.maps.Marker(markerpos2)
     }
