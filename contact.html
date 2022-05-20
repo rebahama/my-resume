@@ -10,6 +10,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>My Resume</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("o5t6CRNnAhwjKGxoW");
+   })();
+</script>
+<script>
+    var templateParams = {
+    name: 'James',
+    notes: 'Check this out!'
+};
+</script>
+
+<script>
+emailjs.send('service_1z4tloj', 'template_b3uc1sn', templateParams)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+</script>
 </head>
 
 <body>
